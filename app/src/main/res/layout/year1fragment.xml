@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4e4e94"
+    android:padding="25dp"
+    >
+
+
+
+        <TextView
+            android:id="@+id/tv_sem1text"
+            android:paddingLeft="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester 1"
+            android:textColor="#fff"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_sem1text1"
+            android:layout_below="@id/tv_sem1text"
+            android:text="Select Your Subject"
+            android:paddingLeft="35dp"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_sem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="30dp"
+            android:layout_below="@id/tv_sem1text"/>
+
+        <TextView
+            android:layout_below="@id/spinner_sem1"
+            android:id="@+id/tv_sem2text"
+            android:paddingLeft="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester 2"
+            android:textColor="#fff"
+            android:textSize="35sp" />
+        <TextView
+            android:id="@+id/tv_sem1text2"
+            android:layout_below="@id/tv_sem2text"
+            android:text="Select Your Subject"
+            android:paddingLeft="35dp"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_sem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="30dp"
+            android:layout_below="@id/tv_sem2text"/>
+
+
+</RelativeLayout>

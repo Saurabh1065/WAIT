@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_year1"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="1st Year" />
+        <item
+            android:id="@+id/nav_year2"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="2nd Year" />
+        <item
+            android:id="@+id/nav_year3"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="3rd Year" />
+        <item
+            android:id="@+id/nav_year4"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="4th Year" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="About"/>
+
+</menu>
