@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4e4e94"
+    android:padding="25dp">
+
+
+
+        <TextView
+            android:id="@+id/tv_sem3text"
+            android:paddingLeft="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester 3"
+            android:textColor="#fff"
+            android:textSize="35sp"/>
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_sem3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="30dp"
+            android:layout_below="@id/tv_sem3text"/>
+
+        <TextView
+            android:id="@+id/tv_sem4text"
+            android:paddingLeft="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester 4"
+            android:textColor="#fff"
+            android:textSize="35sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_sem4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="30dp"
+            android:layout_below="@id/tv_sem4text"/>
+
+
+</RelativeLayout>
